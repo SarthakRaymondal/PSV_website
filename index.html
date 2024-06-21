@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/jpeg" href="https://tse3.mm.bing.net/th?id=OIP.RDjTeCIjRgfiLN2rFsfOLQHaHw&pid=Api&P=0&h=180">
+    <title>Progya Shova Vidyamandir</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #dashboard {
+            width: 100%;
+            height: 50px;
+            background-color: #D6D6D6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: anim1;
+            animation-duration: 1s;
+            animation-play-state: paused;
+            visibility:hidden;
+        }
+        @keyframes anim1 {
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+
+        .button1 {
+
+            height: 100%;
+            width: 90px;
+            border: none;
+            font-size: 16px;
+            background-color: #D6D6D6;
+            font-weight: 900;
+        }
+        .button1:hover {
+            filter: brightness(70%);
+        }
+        .ft1 {
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+              }
+    .sus1 {
+        user-select: none;
+        animation-name: anim1;
+        animation-duration: 0.6s;
+    }          
+    @media(max-width:551px) {
+        .sus1 {
+            flex-direction: column;
+        }
+    }
+    #content {
+        animation-name: anim1;
+        animation-duration: 1s;
+        animation-play-state: paused;
+        visibility: hidden;
+    }
+    </style>
+</head>
+<body onload="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<br>
+<div style="width: 100%;display: flex;justify-content: center;align-items: center;" class="sus1" id="sus1">    
+<img src="https://tse3.mm.bing.net/th?id=OIP.RDjTeCIjRgfiLN2rFsfOLQHaHw&pid=Api&P=0&h=180" height="60" width="60" class="img1">
+<p class="ft1" style="font-size: 40px;text-align: center;margin-left: 10px;">Progya Shova Vidyamandir</p>
+</div>
+    <div id="dashboard">
+        <button class="button1 ft1">Home</button>
+        <button class="button1 ft1">Mission</button>
+        <button class="button1 ft1">About</button>
+        <button class="button1 ft1">Contact</button>
+    </div>
+    <br><br>
+    <div id="content">
+       <p style="text-align: center;font-size: 30px;" class="ft1">School for students upto class 4</p>
+       <div style="width: 100%;height: 300px;display: flex;justify-content: center;">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.RDjTeCIjRgfiLN2rFsfOLQHaHw&pid=Api&P=0&h=180" width="500px" height="200px">
+       </div><br>
+       <div style="width: 100%;height: 300px;display: flex;justify-content: center;">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.RDjTeCIjRgfiLN2rFsfOLQHaHw&pid=Api&P=0&h=180" width="500px" height="200px">
+       </div><br>
+       <div style="width: 100%;height: 300px;display: flex;justify-content: center;">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.RDjTeCIjRgfiLN2rFsfOLQHaHw&pid=Api&P=0&h=180" width="500px" height="200px">
+       </div><br>
+    </div>
+<script>
+    const a = setTimeout(suss1 , 300)
+    function suss1() {
+        document.getElementById("dashboard").style.visibility = "visible"
+        document.getElementById("dashboard").style.animationPlayState = "running"
+        const a = setTimeout(suss2 , 300)
+    }
+    function suss2() {
+        document.getElementById("content").style.visibility = "visible"
+        document.getElementById("content").style.animationPlayState = "running"
+    }
+</script>
+</body>
+</html>
